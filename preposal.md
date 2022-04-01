@@ -6,7 +6,7 @@ I want to write a program to make user play blackjack with computers.
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
-The member I collaborate with is Hau Chak Kai
+The member I collaborate with is Chak Kai Hau.
 
 ## Do you have any questions of your own?
 
