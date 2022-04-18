@@ -2,15 +2,16 @@
 
 #### Your name
 
-TODO
+Ziwei Wang
 
 #### Your section leader's name
 
-TODO
+Professor: Andrew Rosen
+TA: Jeremy Fan
 
 #### Project title
 
-TODO
+Risk Parity 
 
 ***
 
@@ -18,12 +19,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I have calculated the risks and returns for each asset. 
 
 #### What have you not done for your project yet?
 
-TODO
+Calculate the portfolio's risk, each asset's risk comtribution, and optimal weight for each asset.
 
 #### What problems, if any, have you encountered?
 
-TODO
+I'm stuck in the code "scipy.optimize.minimize". Got some maths understanding issues need to be solved. 
