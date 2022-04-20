@@ -32,7 +32,8 @@ for a in range(len(stock_price)-1):
 
 
 X = np.vstack([stock_return,bonds_return,gold_return])
-V = np.cov(X) #Get the covariance matrix of the portfolio
+V = np.cov(X) 
+#Get the covariance matrix of the portfolio
 
 def calculate_portfolio_var(w,V):
     # function that calculates portfolio risk
