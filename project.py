@@ -69,7 +69,8 @@ w0 = [1/3]*3
 x_t = [1/3]*3 # your risk budget percent of total portfolio risk (equal risk)
 cons = ({'type': 'eq', 'fun': total_weight_constraint},
 {'type': 'ineq', 'fun': long_only_constraint})
-res= scipy.optimize.minimize(risk_budget_objective, w0, args=[V,x_t], method='SLSQP',constraints=cons, options={'disp': True})
+res= scipy.optimize.minimize(risk_budget_objective, w0, args=[V,x_t], method='SLSQP',constraints=cons, options={'disp': True}) 
+#Reference for the Quadratic programing: https://thequantmba.wordpress.com/2016/12/14/risk-parityrisk-budgeting-portfolio-in-python/
 weight = np.asmatrix(res.x)
 print("Each asset's weight", weight)
 
